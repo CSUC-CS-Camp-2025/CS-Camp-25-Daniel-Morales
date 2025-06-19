@@ -1,12 +1,10 @@
-#kitty{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-#btn{
-    width: 200px;
-    height: 200px;
-    background-color: sandybrown;
+#Title{
+  background-image: image();
+  background-size: contain;
+  margin-left: -3%;
+  margin-right: -3%;
+  padding: 35px;
+  padding-left: 3%;
+  max-width: 100%;
+  height: auto;
 }
