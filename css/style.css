@@ -1,28 +1,36 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-@keyframes Float {
-  0%   {top:0px;}
-  25%  {top:50px;}
-  50%  {top:100px;}
-  75%  {top:150px;}
-  100% {top:200px;}
-}
+
 #Title{
   background-color: steelblue; font-size: 25px; text-align: center; text-shadow: -3px 6px 5px black; color: aliceblue;
-  margin-left: -3%; margin-right: -3%;  margin-top: -2%;
-  border-width: 15px; border-radius: 13%; border-color: rgb(0, 0, 0); border-style: outset; box-shadow: 5px 10px;
+  margin-left: -3%; margin-top: -2%;
+  border-width: 15px; border-radius: 13%; border-color: rgb(0, 0, 0); border-style: solid solid outset solid; box-shadow: 5px 10px;
   padding-left: 3%;
-  opacity: 80%;
+  opacity: 95%;
 }
-#Title:hover{
-  animation-name: Float;
-  animation-duration: 2s;
-}
-.flex-container{
+
+.flex-container-header{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   justify-content: space-evenly;
   align-items: flex-start;
+}
+
+.flex-container-dash{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-left: -15%;
+  margin-right: 98%;
+}
+.dash{
+  padding: 35px;
 }
