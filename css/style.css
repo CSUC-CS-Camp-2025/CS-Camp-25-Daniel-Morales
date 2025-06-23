@@ -22,7 +22,7 @@ body{
   display: flex;  flex: 30%;
   flex-direction: column; justify-content: flex-end;
   background-color: white; color: transparent;
-  margin-left: -8%; opacity: 70%; width: 150px;
+  margin-left: -10%; opacity: 70%; width: 150px;
   border-width: 10px; border-radius: 15%; border-color: black; border-style:solid;
   transition: margin-left .5s, color .5s, opacity .5s;
 }
@@ -34,4 +34,17 @@ body{
   margin-left: 0%;
   color: black;
   opacity: 100%;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+a:visited {
+  color: royalblue;
+  text-decoration: none;
 }
