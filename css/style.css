@@ -8,29 +8,30 @@ body{
 #Title{
   background-color: steelblue; font-size: 25px; text-align: center; text-shadow: -3px 6px 5px black; color: aliceblue;
   margin-left: -3%; margin-top: -2%;
-  border-width: 15px; border-radius: 13%; border-color: rgb(0, 0, 0); border-style: solid solid outset solid; box-shadow: 5px 10px;
-  padding-left: 3%;
-  opacity: 95%;
+  border-width: 15px; border-radius: 13%; border-color: white; border-style: solid; 
+  padding-left: 3%; opacity: 95%;
 }
 
 .flex-container-header{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  justify-content: space-evenly;
+  display: flex; flex-direction: row;
+  justify-content: flex-end; justify-content: space-evenly;
   align-items: flex-start;
 }
 
 .flex-container-dash{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-  margin-left: -15%;
-  margin-right: 98%;
+  display: flex;  flex: 30%;
+  flex-direction: column; justify-content: flex-end;
+  background-color: white; color: transparent;
+  margin-left: -8%; opacity: 70%; width: 150px;
+  border-width: 10px; border-radius: 15%; border-color: black; border-style:solid;
+  transition: margin-left .5s, color .5s, opacity .5s;
 }
 .dash{
   padding: 35px;
+}
+
+.flex-container-dash:hover{
+  margin-left: 0%;
+  color: black;
+  opacity: 100%;
 }
