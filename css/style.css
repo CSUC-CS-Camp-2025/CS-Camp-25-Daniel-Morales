@@ -41,7 +41,7 @@ a:link {
 }
 
 a:hover {
-  color: darkblue;
+  color: cyan;
   text-decoration: none;
 }
 a:visited {
